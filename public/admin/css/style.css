@@ -1,0 +1,47 @@
+#login h2{
+    text-align: center;
+}
+#login{
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+#header{
+    background: blue;
+    padding: 15px 0px;
+}
+#header h3{
+    color: white;
+}
+#header button{
+    float: right;
+}
+
+#mid .bi-pencil{
+    font-size: 28px;
+}
+
+#mid h2{
+    text-align: center;
+}
+#mid h3{
+    color: orange;
+    margin-top: 85px;
+    font-size: 3rem;
+}
+#mid .bi-x-lg{
+    font-size: 25px;
+    
+}
+#mid .bi-x-lg:hover{
+    color: red;
+}
+
+#footer{
+    margin-top: 100px;
+    background: blue;
+    color: white;
+}
+#footer h2{
+    text-align: center;
+}

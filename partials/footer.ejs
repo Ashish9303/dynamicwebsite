@@ -1,0 +1,50 @@
+<section id="footer">
+    <img src="/media/border2.png" alt="" id="footer-border">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/media/logo.png" alt="" id="footer-logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aperiam fugiat laboriosam modi, aspernatur, commodi blanditiis dolores saepe eum sequi dignissimos voluptate assumenda suscipit facere quo debitis dolore.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Indigo Pvt Ltd.</h2>
+                <table>
+                    <tr>
+                        <td class="d-block"><span><i class="bi bi-buildings"></i></span></i></td>
+                        <td><%=address.add%></td>
+                    </tr>
+                    <tr>
+                        <td class="d-block"><span><i class="bi bi-telephone"></i></span></td>
+                        <td>0141-<%=address.tel%></td>
+                    </tr>
+                    <tr>
+                        <td class="d-block"><span><i class="bi bi-phone"></i></span></td>
+                        <td>+91-<%=address.mobile%></td>
+                    </tr>
+                    <tr>
+                        <td class="d-block"><span><i class="bi bi-envelope"></i></span></td>
+                        <td><%=address.email%></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <form action="" method="post">
+                    <h2>Query Form</h2>
+                    <input type="email" name="email" class="form-control" placeholder="Enter Your Email">
+                    <textarea name="query" id="" class="form-control mt-1" placeholder="Enter Your Query"></textarea>
+                    <button type="submit" class="btn btn-success mt-1 form-control">Post</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center mt-2">
+            <div class="col-md-12">
+                <a href="<%=address.linkedin%>" target="_blank"><img src="media/linkedin-icon.png" alt=""></a>
+                <a href="<%=address.insta%>" target="_blank"><img src="media/instagram-icon.png" alt=""></a>
+                <a href="<%=address.twitter%>" target="_blank"><img src="media/twitter-icon.png" alt=""></a>
+                <a href="<%=address.snap%>" target="_blank"><img src="media/snapchat-icon.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>

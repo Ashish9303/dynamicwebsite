@@ -1,0 +1,2 @@
+font-family: 'Delicious Handrawn', cursive;   //p
+font-family: 'Rajdhani', sans-serif;          //heading

@@ -1,0 +1,143 @@
+#header{
+    background: linear-gradient(to right, rgb(129,21,221), rgb(90,11,157));
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#header .container-fluid{
+    padding-left: 0px;
+}
+
+#header img{
+    width: 100px;
+    box-shadow: 10px 10px black;
+    
+}
+
+#header ul li a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition-property: color;
+    transition-duration: 2s;
+}
+#header ul li a:hover{
+    color: antiquewhite;
+}
+#header .bi-list{
+    color: white;
+    font-size: 25px;
+}
+#header .navbar-toggler{
+    color: white;
+}
+
+/* --------------------Banner------------------ */
+#banner{
+    background: linear-gradient(to right, rgb(129,21,221), rgb(90,11,157));
+    padding-top: 35px;
+}
+#banner h3{
+    text-align: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+#banner p{
+    color:antiquewhite;
+    font-family: 'Delicious Handrawn', cursive;
+}
+#banner #banner-img{
+    width: 250px;
+    border-radius: 50%;
+}
+#banner img{
+    width: 100%;
+}
+
+
+/* --------------------more detail------------- */
+#mid h2{
+    text-align: center;
+    margin: 2px 0px;
+
+}
+#mid p{
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+
+/* -------------------Services-------------- */
+#services h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+}
+#services img{
+    width: 100px;
+    height: 100px;
+    margin: 15p 0px;
+}
+
+#services h4{
+    font-family: 'Rajdhani', sans-serif;
+}
+#services p{
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: justify;
+}
+
+
+/* ------------------Testimonial------------- */
+#testi img{
+    width: 100px;
+    border-radius: 50%;
+}
+#testi h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+}
+#testi p{
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: justify;
+}
+
+
+/* ------------------Footer------------------ */
+#footer{
+    background: linear-gradient(to right, rgb(129,21,221), rgb(90,11,157));
+    padding-bottom: 15px;
+}
+#footer h2{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    padding-top: 25px;
+}
+#footer table{
+    color: white;
+}
+#footer table span{
+    font-size: 22px;
+    margin-right: 10px;
+}
+#footer table td{
+    font-family: 'Delicious Handrawn', cursive;
+}
+#footer #footer-logo{
+    width: 100px;
+    padding-top: 25px;
+}
+
+#footer p{
+    font-family: 'Delicious Handrawn', cursive;
+    color: white;
+}
+
+#footer img{
+    width: 70px;    
+}
+#footer #footer-border{
+    width: 100%;
+}
